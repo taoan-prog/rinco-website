@@ -1,5 +1,6 @@
 /**
  * Rinco International - Sustainable Bags Website
+ * English Version with Standard Logo
  * Cloudflare Pages Deployment
  */
 
@@ -134,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const submitBtn = form.querySelector('button[type="submit"]');
             const originalText = submitBtn.textContent;
 
-            submitBtn.textContent = '发送中...';
+            submitBtn.textContent = 'Sending...';
             submitBtn.disabled = true;
 
             const formData = new FormData(form);
@@ -145,12 +146,12 @@ document.addEventListener('DOMContentLoaded', function() {
                 await new Promise(resolve => setTimeout(resolve, 1500));
 
                 // Show success
-                showStatus('success', '✅ 感谢您的咨询！我们已收到您的信息，将在24小时内与您联系。');
+                showStatus('success', '✅ Thank you for your inquiry! We have received your message and will get back to you within 24 hours.');
                 form.reset();
 
                 console.log('Form submitted:', data);
 
-                // TODO: 集成真实后端
+                // TODO: Integrate real backend
                 // await fetch('/api/contact', {
                 //     method: 'POST',
                 //     headers: { 'Content-Type': 'application/json' },
@@ -159,7 +160,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             } catch (error) {
                 console.error('Form error:', error);
-                showStatus('error', '❌ 发送失败，请稍后重试或直接发送邮件至 judy@travelmate21.com');
+                showStatus('error', '❌ Failed to send. Please try again or email us directly at judy@travelmate21.com');
             } finally {
                 submitBtn.textContent = originalText;
                 submitBtn.disabled = false;
