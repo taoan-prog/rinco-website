@@ -1,0 +1,11 @@
+# 强制 HTTPS（推荐）
+https://example.com/* https://example.com/:splat 301!
+
+# 自定义 404 页面
+/* /404.html 404
+
+# 旧路径重定向（示例）
+/blog/* /blog/:splat 301!
+
+# www 到非 www（可选）
+www.example.com/* https://example.com/:splat 301!
