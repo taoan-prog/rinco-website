@@ -43,7 +43,7 @@ Repository: https://github.com/taoan-prog/rinco-website
 ### Step 3: Get Your URL
 After ~2 minutes, your site will be live at:
 ```
-https://rinco-website.pages.dev
+https://rinco.ccwu.cc
 ```
 
 ## 📋 Content Overview
