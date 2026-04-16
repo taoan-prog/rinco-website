@@ -19,7 +19,7 @@ cloudflare-site/
 ├── index.html      Main company website (English)
 ├── style.css       Responsive styles & animations
 ├── script.js       Interactive features
-├── logo.jpg        Standard Rinco company logo
+├── logo.png        Standard Rinco company logo (transparent)
 ├── _redirects      URL redirect rules (optional)
 ├── _headers        Security headers (optional)
 └── README.md       This documentation
@@ -87,7 +87,7 @@ All product codes from the PDF catalog:
 Edit `index.html` and modify:
 - Shenzhen HQ address
 - Email: `judy@travelmate21.com` (already set)
-- Website: `www.rinco-intl.com` (already linked)
+- Website: `rinco.ccwu.cc` (already linked)
 - Factory address (already included)
 
 ### Change Colors
@@ -169,6 +169,16 @@ npx http-server . -p 8000
 - ✅ Image alt text for accessibility
 - ✅ Lazy loading ready (IntersectionObserver)
 - ✅ Standard Rinco logo included
+
+## 📱 QR Code
+
+Scan to visit the website:
+
+![QR Code](qr-code.png)
+
+**URL**: https://rinco.ccwu.cc
+
+---
 
 ## 📝 Notes
 
