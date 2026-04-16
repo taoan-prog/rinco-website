@@ -99,8 +99,8 @@ Edit CSS variables in `style.css` `:root` section:
 ```
 
 ### Replace Logo
-Logo file: `logo.jpg` (57KB, 1216×736px)
-- Replace with your standard Rinco logo
+Logo file: `logo.png` (24KB, transparent background, 1216×736px)
+- Replace with your standard Rinco logo (already trimmed, no background)
 - Recommended: PNG with transparent background
 - Size: ~40-60px height for header display
 
