@@ -160,11 +160,6 @@ a:hover {
     object-fit: contain;
 }
 
-.logo-text {
-    font-size: 1.5rem;
-    font-weight: 800;
-}
-
 .nav-links {
     display: flex;
     list-style: none;
